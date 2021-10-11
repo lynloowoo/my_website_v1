@@ -1,6 +1,6 @@
 baseURL: http://example.org/
 languageCode: en-us
-title: Forty
+title: Forty # change to customize it
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -8,9 +8,9 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP
+      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP # can be hashtag
       AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Mujin Lin
+    title: Hi, my name is Mujin Lin # Add your real name and short description
   blog: {}
   contact:
     address:

@@ -1,0 +1,19 @@
+---
+title: "My_website_v1"
+author: "Mujin Lin"
+date: "2021/10/11"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+```{r}
+
+blogdown::new_site(theme = "MarcusVirg/forty", 
+      sample = TRUE, 
+      theme_example = TRUE,            
+      empty_dirs = TRUE,            
+      to_yaml = TRUE)
+```

@@ -1,6 +1,6 @@
-baseURL: http://example.org/
+baseURL: https://mujin-lin.netlify.app/
 languageCode: en-us
-title: Forty # change to customize it
+title: Welcome to Mujin Lin's website # change to customize it
 theme: forty
 googleAnalytics: ''
 disqusShortname: ''
@@ -14,28 +14,28 @@ params:
   blog: {}
   contact:
     address:
-      - city: City, ST 00000
-        country: Country
-        street: Street
+      - city: London, ST 00000
+        country: United Kingdom
+        street: Maida Vale
         title: Address
     buttonClear: Clear
     buttonSend: Send message
     email:
-      - email: example@domain.com
+      - email: mlin.mfa2022@london.edu
         title: Email
     enable: yes
     phone:
-      - phone: (000) 000-0000 x1234
+      - phone: (44) 7422581615
         title: Phone
   custom_css: []
   custom_js: []
-  description: Your description
+  description: Feel free to contact me!
   error404:
     heading: Page couldn't be found
     text: Please visit [this page](/)
   favicon: favicon.ico
   footer:
-    copyright: Company Name
+    copyright: Not available
     enable: yes
     quicklinks:
       - alt: HTML5 UP
@@ -56,7 +56,7 @@ params:
         url: https://github.com/lynloowoo/
       - icon: fa-linkedin
         label: LinkedIn
-        url: https://www.linkedin.com
+        url: https://www.linkedin.com/in/mujin-lin-b71b301b7/
   image: ''
   name: Your name
   navigation:

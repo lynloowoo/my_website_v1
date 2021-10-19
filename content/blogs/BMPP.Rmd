@@ -1,0 +1,69 @@
+---
+categories:  
+- ""    #the front matter should be like the one found in, e.g., blog2.md. It cannot be like the normal Rmd we used
+- ""
+date: "2021-09-30"
+description: Risk-Return of DJIA stocks # the title that will show up once someone gets to this page
+draft: false
+image: spices.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+
+keywords: ""
+slug: risk_return # slug is the shorthand URL address... no spaces plz
+title: Risk-Return of DJIA stocks
+---
+  
+
+
+
+```{r, setup, echo=FALSE}
+knitr::opts_chunk$set(
+  message = FALSE, 
+  warning = FALSE, 
+  tidy=FALSE,     # display code as typed
+  size="small")   # slightly smaller font for code
+options(digits = 3)
+
+# default figure size
+knitr::opts_chunk$set(
+  fig.width=6.75, 
+  fig.height=6.75,
+  fig.align = "center"
+)
+```
+
+# Library
+```{r load-libraries, echo=FALSE}
+
+library(tidyverse) # the usual stuff: dplyr, readr, and other goodies
+library(lubridate) # to handle dates
+library(GGally) # for correlation-scatter plot matrix
+library(ggfortify) # to produce residual diagnostic plots
+library(rsample) # to split dataframe in training- & testing sets
+library(janitor) # clean_names()
+library(broom) # use broom:augment() to get tidy table with regression output, residuals, etc
+library(huxtable) # to get summary table of all models produced
+library(kableExtra) # for formatting tables
+library(moderndive) # for getting regression tables
+library(skimr) # for skim
+library(mosaic)
+library(leaflet) # for interactive HTML maps
+library(tidytext)
+library(viridis)
+library(vroom)
+library(huxtable)
+library(leaps)
+library(car)
+```
+
+# Executive Summary
+1. We clean the data, majorly involves exploring out-liners, filtering unsuitable cases, and simplified some variables.
+2. We map put spot of hotels and color them by amount, green for lower the median and blue for higher than median to see the distribution.
+3. We using a series of models to determine the real situation. And we successfully use the exhaustive method to find the `modelx` with significant variables, highest adjr2, and good predicting power.
+4. In all, we are able to use what we learned to discover the story, which is the most exciting part.
+5. Our key findings are as below:
+  
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE, out.width = '100%'}
+knitr::include_graphics(here::here("images", "key findings.jpg"), error = FALSE)
+```
+

@@ -8,13 +8,13 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      BMPP # can be hashtag
-      AND RELEASED UNDER THE CREATIVE COMMONS.
-    title: Hi, my name is Mujin Lin # Add your real name and short description
+      Welcome to my website, My name is Mujin Lin. 
+      These are my stories and experiences, have a nice day!
+    title: Mujin Lin, MFA, LBS # Add your real name and short description
   blog: {}
   contact:
     address:
-      - city: London, ST 00000
+      - city: London, W9 1SP
         country: United Kingdom
         street: Maida Vale
         title: Address

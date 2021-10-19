@@ -2,13 +2,17 @@
 categories:
 - ""
 - ""
-date: "2017-10-31T21:28:43-05:00"
+date: "2021-10-19T21:28:43-05:00"
 description: ""
 draft: false
-image: pic10.jpg
+image: Best_memory.jpg
 keywords: ""
-slug: ipsum
-title: Ipsum
+slug: Best_memory
+title: Best_memory
 ---
 
-Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis tempus.
+This is my best memory. Students cheered, exam paper has been thrown through 
+windows. That was the last month of my senior high school. After that, I left
+home, family, friends, and my childhood. Ever since, never had I shouted out loud, 
+yelled for the passionate and young youth, I became an silent adult. Something has 
+long gone, with flying snow that night, disappearing at that dark night.

@@ -2,14 +2,11 @@
 categories:
 - ""
 - ""
-date: "2017-10-31T22:26:13-05:00"
-description: Nullam et orci eu lorem consequat tincidunt vivamus et sagittis magna
-  sed nunc rhoncus condimentum sem. In efficitur ligula tate urna. Maecenas massa
-  sed magna lacinia magna pellentesque lorem ipsum dolor. Nullam et orci eu lorem
-  consequat tincidunt. Vivamus et sagittis tempus.
+date: "2021-10-19T22:26:13-05:00"
+description: I find that life in London was quite charming. For example, it is really beautiful to wander at night in London.
 draft: false
-image: pic08.jpg
+image: London_night.jpg
 keywords: ""
-slug: tempus
-title: Tempus
+slug: London_night
+title: Life in London
 ---

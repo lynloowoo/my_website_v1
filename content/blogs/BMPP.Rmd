@@ -64,6 +64,6 @@ library(car)
   
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE, out.width = '100%'}
-knitr::include_graphics(here::here("images", "key findings.jpg"), error = FALSE)
+knitr::include_graphics(here::here("static/img/blogs", "key findings.jpg"), error = FALSE)
 ```
 

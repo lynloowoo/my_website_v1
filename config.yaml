@@ -81,24 +81,24 @@ params:
   tiles:
     enable: yes
     showcase:
-      - image: pic01.jpg
+      - image: lbs.jpg
         subtitle: Infer
         title: Best Model to Predict Price 
         url: blogs/BMPP
-      - image: London_night.jpg # Note_ photo
+      - image: London_night.jpg 
         subtitle: Every experience surprises me
         title: Life in London
         url: blogs/London_night # slug
-      - image: FF.jpg # Note_ photo
+      - image: FF.jpg 
         subtitle: It is always a pleasure to spent some time with them
         title: Life with my family and friends
         url: blogs/FF #slug
-      - image: she.png
+      - image: She.png
         subtitle: Don't go gentle into that night
         title: She
         url: blogs/She
       - image: Best_memory.jpg
-        subtitle: All models are wrong, but some are useful
+        subtitle: All models are wrong, but some are useful - George Box
         title: Best moment of my life
         url: blogs/Best_memory
       - image: Tigers.jpeg

@@ -8,7 +8,7 @@ params:
   banner:
     buttonText: Get Started
     subtitle: |-
-      A RESPONSIVE SITE TEMPLATE DESIGNED BY HTML5 UP # can be hashtag
+      BMPP # can be hashtag
       AND RELEASED UNDER THE CREATIVE COMMONS.
     title: Hi, my name is Mujin Lin # Add your real name and short description
   blog: {}
@@ -82,9 +82,9 @@ params:
     enable: yes
     showcase:
       - image: pic01.jpg
-        subtitle: Ipsum Dolor Sit Amet
-        title: Aliquam
-        url: blogs/aliquam
+        subtitle: Infer
+        title: Best Model to Predict Price 
+        url: blogs/BMPP
       - image: pic02.jpg
         subtitle: Feugiat Amet Tempus
         title: Tempus

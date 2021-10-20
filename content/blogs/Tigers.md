@@ -7,7 +7,7 @@ description: " "
 draft: false
 image: Tigers.jpeg
 keywords: ""
-slug: Tigers
+slug: "tigers"
 title: Tigers
 ---
 

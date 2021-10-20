@@ -3,11 +3,11 @@ categories:
 - ""
 - ""
 date: "2021-10-19T22:42:51-05:00"
-description: " "
+description: ""
 draft: false
 image: She.png
 keywords: ""
-slug: She
+slug: "she"
 title: She
 ---
 

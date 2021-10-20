@@ -72,7 +72,7 @@ params:
       - name: Blogs
         url: blogs
       - name: Generic Blog
-        url: blogs/ipsum
+        url: blogs
       - name: Elements
         url: elements.html # need to change here, find this rmd Note_
     menu: Menu
@@ -88,23 +88,23 @@ params:
       - image: London_night.jpg 
         subtitle: Every experience surprises me
         title: Life in London
-        url: blogs/London_night # slug
+        url: blogs/london_night # slug
       - image: FF.jpg 
         subtitle: It is always a pleasure to spent some time with them
         title: Life with my family and friends
-        url: blogs/FF #slug
+        url: blogs/ff #slug
       - image: She.png
         subtitle: Don't go gentle into that night
         title: She
-        url: blogs/She
+        url: blogs/she
       - image: Best_memory.jpg
         subtitle: All models are wrong, but some are useful - George Box
         title: Best moment of my life
-        url: blogs/Best_memory
+        url: blogs/best_memory
       - image: Tigers.jpeg
         subtitle: Guangdong Southeast Tigers
         title: My favourite team
-        url: blogs/Tigers
+        url: blogs/tigers
   two:
     buttonText: Get Started
     enable: yes
@@ -114,5 +114,5 @@ params:
     explore more and present all of them. Therefore, if you are free to 
     plan youe life, I really recommend you to learn R, which is a beautify
     , readable, and great programming language. Thank you again, my listener!"
-    title: Have a nice day!# , link to TidyTuesday
+    title: Have a nice day!
     url: blogs

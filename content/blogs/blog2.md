@@ -3,11 +3,11 @@ categories:
 - ""
 - ""
 date: "2021-10-19T22:26:09-05:00"
-description: " "
+description: ""
 draft: false
 image: FF.jpg
 keywords: ""
-slug: FF
+slug: "ff"
 title: Life with my family and friends
 ---
 

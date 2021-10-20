@@ -65,6 +65,6 @@ library(car)
 
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE, out.width = '100%'}
-knitr::include_graphics("C:/Users/XLMJX/Documents/FDSM/LBS/LBS-course/R/updated_on_8_Oct/ca09.mfa2022/website/my_website_v1/static/img/blogs/key findings.jpg", error = FALSE)
+knitr::include_graphics("/img/key_findings.jpg",error =FALSE)
 ```
 

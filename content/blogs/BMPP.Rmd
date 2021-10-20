@@ -5,7 +5,7 @@ categories:
 date: "2021-10-09"
 description: Best model to Predict Price # the title that will show up once someone gets to this page
 draft: false
-image: key findings.jpg # save picture in /static/img/blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+image: key_findings.jpg # save picture in /static/img/blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
 
 keywords: ""
 slug: BMPP # slug is the shorthand URL address... no spaces plz
@@ -62,9 +62,4 @@ library(car)
 4. In all, we are able to use what we learned to discover the story, which is the most exciting part.
 5. Our key findings are as above:
   
-
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE, out.width = '100%'}
-knitr::include_graphics("/img/key_findings.jpg",error =FALSE)
-```
 

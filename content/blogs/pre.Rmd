@@ -1,0 +1,118 @@
+---
+categories:  
+- ""    #the front matter should be like the one found in, e.g., blog2.md. It cannot be like the normal Rmd we used
+- ""
+date: "2021-09-30"
+description: My pre-programme # the title that will show up once someone gets to this page
+draft: false
+image: london.jpg # save picture in \static\img\blogs. Acceptable formats= jpg, jpeg, or png . Your iPhone pics wont work
+
+keywords: ""
+slug: pre # slug is the shorthand URL address... no spaces plz
+title: My pre-programme
+---
+
+```{r load-libraries, warning=FALSE, message=FALSE, echo=FALSE}
+library(tidyverse)  # Load ggplot2, dplyr, and all the other tidyverse packages
+#library(path<-readine())  # data set dataset
+library(here)
+library(janitor)
+```
+
+> 
+# Self-introdution - Mujin Lin (Finley) 
+* Hi this is Mujin (this is the photo that I like). ![photo](https://cdn.pixabay.com/photo/2021/07/21/21/15/lavenders-6484003_960_720.jpg) I like to do following things:
+1. **read and think deeply** (Despite that I always get distracted by the real situation like some funny clips on the Blibli). Currently I am trying to find a way of thinking deeply.
+2. I love playing basketball and watch game related to it. In my spare time, I would do fitness and play with friends, including BRPG such as console game. You can find a lot of funny games [Here](https://www.baidu.com).
+It is really a great horor to join you guys and I am looking forward to meeting you guys in person soon!
+
+
+# Task 3: Brexit vote analysis
+
+
+
+```{r load_brexit_data, warning=FALSE, message=FALSE}
+brexit_results <- read_csv(here::here("data","brexit_results.csv"))
+
+
+glimpse(brexit_results)
+```
+
+The data comes from [Elliott Morris](https://www.thecrosstab.com/), who cleaned it and made it available through his [DataCamp class on analysing election and polling data in R](https://www.datacamp.com/courses/analyzing-election-and-polling-data-in-r).
+
+Our main outcome variable (or y) is `leave_share`, which is the percent of votes cast in favour of Brexit, or leaving the EU. Each row is a UK [parliament constituency](https://en.wikipedia.org/wiki/United_Kingdom_Parliament_constituencies).
+
+```{r brexit_histogram, warning=FALSE, message=FALSE}
+
+# histogram
+## for assignment of revisit mentioned at bottom of exercise 3
+plot_2 <- ggplot(brexit_results, aes(x = leave_share)) +
+  geom_histogram(binwidth = 2.5)
+plot_2 <- plot_2 + labs(title = " brexit_result ", subtitle = " Histogram ",
+       x = " leave_share ",
+       y = " count ") +
+   NULL
+
+
+plot_2
+
+# density plot-- think smoothed histogram
+
+plot_3 <- ggplot(brexit_results, aes(x = leave_share)) +
+  geom_density()
+plot_3 <- plot_3 + labs(title = " brexit_result ", subtitle = " smoothed Histogram ",
+       x = " leave_share ",
+       y = " count ") +
+   NULL
+plot_3
+
+
+# The empirical cumulative distribution function (ECDF) 
+ggplot(brexit_results, aes(x = leave_share)) +
+  stat_ecdf(geom = "step", pad = FALSE) +
+  scale_y_continuous(labels = scales::percent) + labs(title = " brexit_result ", subtitle = " step ",
+       x = " leave_share ",
+       y = " count ") 
+  
+
+
+```
+
+
+```{r brexit_immigration_correlation}
+brexit_results %>% 
+  select(leave_share, born_in_uk) %>% 
+  cor()
+```
+
+
+```{r brexit_immigration_plot}
+ggplot(brexit_results, aes(x = born_in_uk, y = leave_share)) +
+  geom_point(alpha=0.3) + labs(title = " brexit_result_correaltion ", subtitle = " smoothed version ",
+       x = " leave_share ",
+       y = " count ") +
+  
+  # add a smoothing line, and use method="lm" to get the best straight-line
+  geom_smooth(method = "lm") + 
+  
+  # use a white background and frame the plot with a black box
+  theme_bw() +
+  NULL
+```
+
+
+
+> 
+* Using labs to revisit plots and giving title to them has been done by 2 different ways
+* Comments about graph are as below:
+1. The relationship between these 2 variables might be interpret as follow: More people born in uk, more they concern about immigration plicy so that they would vote for brexit.(That is just one hypothese which leaves to test if we want determine the causality.)
+2. There is a strong relationship in these 2 variables but whether it is significant remains further investigation and how is happen (eg. storyline as above) still needs a further test (eg. DID model)
+
+
+## Details
+
+
+
+-   Who did you collaborate with: Thanks to the kind help from Mr. Christodoulou.
+-   Approximately how much time did you spend on this problem set: a week
+-   What, if anything, gave you the most trouble: library function is really important 

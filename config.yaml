@@ -84,7 +84,7 @@ params:
       - image: lbs.jpg
         subtitle: Infer
         title: Best Model to Predict Price 
-        url: blogs/BMPP
+        url: blogs/bmpp
       - image: London_night.jpg 
         subtitle: Every experience surprises me
         title: Life in London

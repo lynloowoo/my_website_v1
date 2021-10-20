@@ -14,8 +14,8 @@ editor_options:
     wrap: 72
 ---
 
-This is my best memory. Students cheered, exam paper has been thrown
+This is my best memory. Students cheered for that final and fatal exam and paper has been thrown
 through windows, like a grand snow. That was the last month of my senior high school. After that, I left home, family, friends, and my childhood. Ever since, never
 had I shouted out loud, yelled for the passionate and young youth, and I
-became an silent adult. Something has long gone, with the flying snow of that
-night, disappearing at that dark night.
+became an silent adult. Something has long gone, with the flying snow, disappearing at that dark night.
+(We cleaned up the whole mess eventually, which is always a tradition.)

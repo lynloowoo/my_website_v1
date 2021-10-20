@@ -1,9 +1,9 @@
 ---
 date: "2017-10-31T22:27:21-05:00"
 draft: false
-image: pic02.jpg
+image: about_me.jpeg
 slug: blogs
-title: Lifestyle
+title: That's me
 ---
 
-My blogs about technology and lifestyle.
+My blogs about my life and interests.

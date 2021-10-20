@@ -1,3 +1,16 @@
+---
+title: "Great document!"
+date: '2021-10-09'
+description: Thank you Sir! You really teach us a lot!
+draft: no
+image: My_School.jpg
+keywords: ''
+slug: Instruction
+categories:
+- ''
+- ''
+---
+
 1.  Make sure you are able to pull and push from a github repo
 
 -   Install Git locally <https://happygitwithr.com/install-git.html>

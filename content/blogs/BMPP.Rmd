@@ -5,7 +5,7 @@ description: Best model to Predict Price
 draft: no
 image: key_findings.jpg
 keywords: ''
-slug: BMPP
+slug: "bmpp"
 categories:
 - ''
 - ''
@@ -30,7 +30,6 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Library
 ```{r load-libraries, echo=FALSE}
 
 library(tidyverse) # the usual stuff: dplyr, readr, and other goodies
@@ -60,7 +59,3 @@ library(car)
 3. We using a series of models to determine the real situation. And we successfully use the exhaustive method to find the `modelx` with significant variables, highest adjr2, and good predicting power.
 4. In all, we are able to use what we learned to discover the story, which is the most exciting part.
 5. Our key findings are as above:
-  
-```{r, echo=FALSE, message=FALSE, warning=FALSE, cache=TRUE, out.width = '100%'}
-knitr::include_graphics("C:/Users/XLMJX/Documents/FDSM/LBS/LBS-course/R/updated_on_8_Oct/ca09.mfa2022/website/my_website_v1/static/img/key_findings.jpg",error =FALSE)
-```

@@ -74,7 +74,7 @@ params:
       - name: Generic Blog
         url: blogs
       - name: Elements
-        url: elements.html # need to change here, find this rmd Note_
+        url: elements.html 
     menu: Menu
     subtitle: By HTML5 Up
     title: Forty
